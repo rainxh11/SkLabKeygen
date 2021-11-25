@@ -1,0 +1,13 @@
+﻿<X_BROADCOM_COM_IpFilterCfg instance="#INSTANCE">
+            <Enable>TRUE</Enable>
+            <FilterName>#FILTERNAME</FilterName>
+            <Protocol>TCP&#32;or&#32;UDP</Protocol>
+            <SourcePortStart>1</SourcePortStart>
+            <SourcePortEnd>65535</SourcePortEnd>
+            <DestinationPortStart>1</DestinationPortStart>
+            <DestinationPortEnd>65535</DestinationPortEnd>
+            <SourceIPAddress>192.168.1.0</SourceIPAddress>
+            <SourceNetMask>255.255.255.0</SourceNetMask>
+            <DestinationIPAddress>#DESTIP</DestinationIPAddress>
+            <DestinationNetMask>#SUBNET</DestinationNetMask>
+</X_BROADCOM_COM_IpFilterCfg>
